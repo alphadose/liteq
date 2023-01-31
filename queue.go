@@ -5,7 +5,7 @@
 //
 // Use runtime.LockOSThread() on the goroutine calling ZenQ.Read() for lowest latency provided you have > 1 cpu cores
 
-package zenq
+package liteq
 
 import (
 	"fmt"
